@@ -1,0 +1,25 @@
+.app {
+  text-align: center;
+}
+.list, .list-item {
+  display: flex;
+}
+.list {
+  flex-direction: column;
+  width: 30%;
+}
+.list-item {
+  width: 100%;
+  position: relative;
+}
+.list-item div {
+  width: 50%;
+  border: 1px solid black;
+}
+.item-nameRate {
+  min-width: 50px;
+}
+.item-valueRate {
+  min-width: 200px;
+}
+
